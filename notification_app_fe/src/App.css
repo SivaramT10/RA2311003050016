@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #8ddbfc;
+}
+
+.container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  background: rgb(193, 242, 255);
+}
+
+.controls,
+.pagination {
+  margin-bottom: 15px;
+}
+
+.card {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 4px solid;
+  background: #d2f4ff;
+}
+
+.card.placement {
+  border-color: green;
+}
+
+.card.result {
+  border-color: orange;
+}
+
+.card.event {
+  border-color: red;
+}
+
+.viewed {
+  opacity: 0.6;
+}
